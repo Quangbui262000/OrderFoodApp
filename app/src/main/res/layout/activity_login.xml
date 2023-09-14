@@ -52,14 +52,26 @@
                 android:layout_marginTop="20dp"
                 android:padding="8dp"
                 android:hint="Password"
+                android:inputType="textPassword"
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
                 android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forget Password ?"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right"
+                android:id="@+id/forgotPassword"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="LOGIN"
-                android:id="@+id/login_button"
+                android:id="@+id/logout_button"
                 android:textSize="18dp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="#2196F3"
