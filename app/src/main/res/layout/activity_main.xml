@@ -8,16 +8,29 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/mName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Order Food App"
-        android:textColor="#3F51B5"
-        android:textSize="24sp"
+        android:text="User Full Name"
+        android:textColor="@color/black"
+        android:textSize="30dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="codingclasses8303@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mName" />
+
 
     <Button
         android:id="@+id/logout_button"
